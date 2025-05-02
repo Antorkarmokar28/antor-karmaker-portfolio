@@ -11,14 +11,16 @@ const Hero = () => {
           {/* hero title */}
           <div className="w-full md:w-2/4 mb-10 md:mb-0">
             <h3 className="text-2xl lg:text-3xl mb-3 lg:mb-6">Hello! I am</h3>
-            <h1 className="text-3xl lg:text-5xl mb-3 lg:mb-6 text-[#00ff99]">ANTOR KARMAKER</h1>
+            <h1 className="text-3xl lg:text-5xl mb-3 lg:mb-6 text-[#00ff99]">
+              ANTOR KARMAKER
+            </h1>
             <h3 className="text-2xl lg:text-3xl mb-3 lg:mb-6">
-              I AM A
+              I AM A{" "}
               <span className="text-[#00ff99]">MERN STACK WEB DEVELOPER</span>
             </h3>
             <p className="text-sm lg:text-md mb-3 lg:mb-6 leading-6 lg:leading-8 font-serif">
               I specialize in building full-stack web applications using
-              MongoDB, Express.js, React, and Node.js. With a strong focus on
+              MongoDB, Express.js, Next js, React, and Node.js. With a strong focus on
               clean code, responsive design, and user-friendly interfaces, I
               love turning ideas into fast, scalable, and dynamic web solutions.
             </p>

@@ -11,22 +11,22 @@ export const navLinks = [
   },
   {
     key: 3,
+    title: "About Me",
+    href: "/about",
+  },
+  {
+    key: 4,
     title: "Skill",
     href: "/skill",
   },
   {
-    key: 4,
+    key: 5,
     title: "Projects",
     href: "/projects",
   },
   {
-    key: 5,
-    title: "About Us",
-    href: "/about",
-  },
-  {
     key: 6,
-    title: "Contact Us",
+    title: "Contact Me",
     href: "/contact",
   },
 ];

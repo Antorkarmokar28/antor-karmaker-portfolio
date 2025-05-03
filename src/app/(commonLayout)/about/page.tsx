@@ -14,7 +14,7 @@ const AboutPage = () => {
             />
           </div>
           <div className="w-full lg:w-2/4 mt-10 lg:mt-0 text-gray-300">
-            <h1 className="text-4xl mb-2 font-bold text-[#00ff99]">ABOUT ME</h1>
+            <h1 className="text-4xl mb-2 font-bold text-[#00ff99]">About Me</h1>
             <p className="text-sm xl:text-lg leading-5 lg:leading-8">
               Hello! {"I'm"} a final year student in the Bachelor of Business
               Studies (BBS) program at

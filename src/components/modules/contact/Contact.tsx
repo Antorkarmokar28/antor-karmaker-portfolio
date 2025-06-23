@@ -2,7 +2,7 @@
 import { CiPhone } from "react-icons/ci";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div className="bg-[#1c1c22] py-20 mt-20">
       <div className="container mx-auto px-4 md:px-6">
@@ -43,4 +43,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;

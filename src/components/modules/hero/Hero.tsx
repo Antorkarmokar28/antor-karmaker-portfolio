@@ -20,9 +20,10 @@ const Hero = () => {
             </h3>
             <p className="text-sm lg:text-md mb-3 lg:mb-6 leading-6 lg:leading-8 font-serif">
               I specialize in building full-stack web applications using
-              MongoDB, Express.js, Next js, React, and Node.js. With a strong focus on
-              clean code, responsive design, and user-friendly interfaces, I
-              love turning ideas into fast, scalable, and dynamic web solutions.
+              MongoDB, Express.js, Next js, React, and Node.js. With a strong
+              focus on clean code, responsive design, and user-friendly
+              interfaces, I love turning ideas into fast, scalable, and dynamic
+              web solutions.
             </p>
             <div className="md:flex items-center gap-6 lg:gap-10">
               {/* resume download button */}

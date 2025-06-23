@@ -7,17 +7,17 @@ export const navLinks = [
   {
     key: 2,
     title: "Education",
-    href: "/education",
+    href: "#education",
   },
   {
     key: 3,
     title: "About Me",
-    href: "/about",
+    href: "#about",
   },
   {
     key: 4,
     title: "Skill",
-    href: "/skill",
+    href: "#skill",
   },
   {
     key: 5,
@@ -27,6 +27,11 @@ export const navLinks = [
   {
     key: 6,
     title: "Contact Me",
-    href: "/contact",
+    href: "#contact",
+  },
+  {
+    key: 7,
+    title: "Blog",
+    href: "/blog",
   },
 ];

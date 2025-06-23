@@ -3,13 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface ProjectDetailsPageProps {
-  params: { id: string };
-}
-
-const ProjectDetailsPage = async ({ params }: ProjectDetailsPageProps) => {
+const ProjectDetailsPage = async ({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) => {
+  const { id } = await params;
   const res = await fetch(
-    `https://antor-karmaker-portfolio-server.vercel.app/api/v1/projects/${params.id}`,
+    `https://antor-karmaker-portfolio-server.vercel.app/api/v1/projects/${id}`,
     { cache: "no-store" }
   );
   const data = await res.json();

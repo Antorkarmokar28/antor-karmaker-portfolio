@@ -1,20 +1,19 @@
-import Hero from "@/components/hero/Hero";
-import React from "react";
-import EducationPage from "./education/page";
-import AboutPage from "./about/page";
-import SkillPage from "./skill/page";
+import About from "@/components/modules/about/About";
+import Education from "@/components/modules/education/Education";
+import Hero from "@/components/modules/hero/Hero";
+import Skill from "@/components/modules/skills/Skills";
 import ProjectsPage from "./projects/page";
-import ContactPage from "./contact/page";
+import Contact from "@/components/modules/contact/Contact";
 
 const HomePage = () => {
   return (
     <div>
       <Hero />
-      <EducationPage />
-      <AboutPage />
-      <SkillPage />
+      <Education />
+      <About />
+      <Skill />
       <ProjectsPage />
-      <ContactPage />
+      <Contact />
     </div>
   );
 };

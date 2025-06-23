@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 
-const SkillPage = async () => {
+const Skill = async () => {
   // fetch skill data
   const skillRes = await fetch(
     "https://antor-karmaker-portfolio-server.vercel.app/api/v1/skills"
@@ -17,7 +17,9 @@ const SkillPage = async () => {
   return (
     <div className="bg-[#1c1c22] text-gray-300 py-10 px-6 mt-20">
       <div className="container mx-auto px-4 md:px-6">
-        <h1 className="text-4xl font-bold mb-8 text-[#00ff99] text-center">My Skills</h1>
+        <h1 className="text-4xl font-bold mb-8 text-[#00ff99] text-center">
+          My Skills
+        </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {skills?.data?.map((skill: any) => (
@@ -59,4 +61,4 @@ const SkillPage = async () => {
   );
 };
 
-export default SkillPage;
+export default Skill;

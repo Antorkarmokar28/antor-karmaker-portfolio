@@ -1,6 +1,6 @@
 import aboutUsImage from "@/assets/antor-3.png";
 import Image from "next/image";
-const AboutPage = () => {
+const About = () => {
   return (
     <div className="bg-[#1c1c22] mt-20">
       <div className="bg-[#1c1c22] container mx-auto px-4 md:px-6">
@@ -52,4 +52,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default About;

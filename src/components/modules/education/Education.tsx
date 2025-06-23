@@ -1,10 +1,12 @@
 import Image from "next/image";
 import educationImage from "@/assets/education.png";
-export default function EducationPage() {
+export default function Education() {
   return (
     <div className="bg-[#1c1c22] text-gray-200 py-10 px-6 mt-20">
       <div className="container mx-auto px-4 md:px-6">
-        <h1 className="text-4xl text-center font-bold mb-6 text-[#00ff99]">Education</h1>
+        <h1 className="text-4xl text-center font-bold mb-6 text-[#00ff99]">
+          Education
+        </h1>
         <div className="bg-[#1c1c22] p-6 border-t-2 border-b-2 border-[#00ff99] rounded-xl md:flex items-center justify-center gap-6">
           <div>
             {/* education image */}

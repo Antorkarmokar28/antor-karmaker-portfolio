@@ -38,7 +38,6 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Logo />
-
           {/* Menu items */}
           <ul className="hidden xl:flex gap-6">
             {navLinks.map(({ href, key, title }) => (

@@ -120,6 +120,28 @@ body {
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+/* custom text shadow color */
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(217, 255, 2, 0.986);
+  }
+  .text-shadow-md {
+    text-shadow: 3px 3px 6px rgba(217, 255, 2, 0.986);
+  }
+  .text-shadow-lg {
+    text-shadow: 4px 4px 8px rgba(217, 255, 2, 0.986);
+  }
+  .text-shadow-xl {
+    text-shadow: 5px 5px 10px rgba(217, 255, 2, 0.986);
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

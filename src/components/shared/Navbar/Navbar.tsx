@@ -5,32 +5,19 @@ import { usePathname } from "next/navigation";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { navLinks } from "./navLinks";
 import Logo from "../Logo/Logo";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
   const pathName = usePathname();
-  const [nav, setNav] = useState(false);
+  const [nav] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const scrollNavbar = () => {
-    if (window.scrollY >= 20) {
-      setNav(true);
-    } else {
-      setNav(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", scrollNavbar);
-    return () => window.removeEventListener("scroll", scrollNavbar);
-  }, []);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
     <nav
-      className={`sticky top-0 z-40 bg-[#1c1c22] py-4 ${
+      className={`sticky top-0 z-40 shadow-[#00ff99] bg-[#03001417] backdrop-blur-md py-4 ${
         nav ? "border-b-2 border-[#00ff99]" : "border-transparent"
       }`}
     >

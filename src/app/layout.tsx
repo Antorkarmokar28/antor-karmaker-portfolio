@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import StarsCanvas from "@/components/modules/StarBackground/StarBackground";
+
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "700"], // Regular, Medium, Bold
@@ -23,6 +25,7 @@ export default function RootLayout({
       <body
         className={`${jetbrainsMono.variable} ${jetbrainsMono.variable} antialiased bg-[#1c1c22] text-white overflow-y-scroll overflow-x-hidden`}
       >
+        <StarsCanvas />
         {children}
       </body>
     </html>

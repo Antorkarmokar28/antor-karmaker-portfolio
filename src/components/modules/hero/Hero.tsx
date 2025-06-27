@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <div className="border-b-2 border-[#00ff99] rounded-b-3xl">
-      <div className="bg-[#1c1c22] container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col-reverse items-center xl:gap-20 2xl:gap-36  md:flex-row">
           {/* hero title */}
           <motion.div
@@ -69,7 +69,7 @@ const Hero = () => {
             >
               {/* resume download button */}
               <Link
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1oa5dSq2wcR3pUKuNjzSfDE67X4qgDTQO/view?usp=sharing"
                 download
                 className="flex items-center gap-3 text-white bg-[#303133] p-4 rounded-full text-sm lg:text-lg font-bold w-48 justify-center outline-2 outline-offset-2 outline-[#00ff99] mb-6"
               >

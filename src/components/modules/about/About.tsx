@@ -2,8 +2,8 @@ import aboutUsImage from "@/assets/antor-3.png";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="bg-[#1c1c22] mt-20">
-      <div className="bg-[#1c1c22] container mx-auto px-4 md:px-6">
+    <div className="mt-20">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="lg:flex items-center justify-between">
           <div className="w-full lg:w-2/4">
             <Image
